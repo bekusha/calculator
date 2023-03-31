@@ -1,0 +1,66 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #3a4663;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 540px;
+  height: 128px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 52px;
+  /* identical to box height */
+  margin-bottom: 24px;
+  text-align: right;
+  letter-spacing: -0.933333px;
+  background-color: #181f33;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.buttons {
+  width: 540px;
+  height: auto;
+  background: #242d44;
+  display: grid;
+
+  border-radius: 10px;
+}
+
+.buttons-row {
+  padding: 30px;
+  padding-left: 30px;
+}
+
+.number {
+  margin-left: 30px;
+  width: 80px;
+  height: 64px;
+  background: #eae3dc;
+  box-shadow: inset 0px -4px 0px #b3a497;
+  border-radius: 10px;
+}
+.operation {
+  margin-left: 30px;
+  width: 101px;
+  height: 64px;
+  background: #eae3dc;
+  box-shadow: inset 0px -4px 0px #b3a497;
+  border-radius: 10px;
+}
+.clear {
+  background-color: red;
+  height: 30px;
+}

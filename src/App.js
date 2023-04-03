@@ -40,13 +40,13 @@ function App() {
         </div>
         <div className="buttons-row">
           <button className="number" value="5" onClick={handleButtonClick}>
-            5
+            4
           </button>
           <button className="number" value="6" onClick={handleButtonClick}>
-            6
+            5
           </button>
           <button className="number" value="7" onClick={handleButtonClick}>
-            7
+            6
           </button>
           <button className="operation" value="-" onClick={handleButtonClick}>
             -
@@ -54,13 +54,13 @@ function App() {
         </div>
         <div className="buttons-row">
           <button className="number" value="5" onClick={handleButtonClick}>
-            5
+            1
           </button>
           <button className="number" value="6" onClick={handleButtonClick}>
-            6
+            2
           </button>
           <button className="number" value="7" onClick={handleButtonClick}>
-            7
+            3
           </button>
           <button className="operation" value="*" onClick={handleButtonClick}>
             *

@@ -1,3 +1,22 @@
+@media (max-width: 375px) {
+  .input {
+    width: 320px;
+  }
+  .buttons {
+    width: 320px;
+    place-items: center;
+  }
+  .buttons-row {
+    padding-left: 20px;
+    padding: 10px;
+  }
+  button.operation {
+    width: 80px;
+  }
+  button.number {
+    margin-left: 10px;
+  }
+}
 body {
   box-sizing: border-box;
   padding: 0;
